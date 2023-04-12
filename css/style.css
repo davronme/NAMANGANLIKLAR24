@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Rubik', 'Arial',  sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+
+
+/* CONTAINER */
+
+.container{
+  width: 100%;
+  max-width: 1440px;
+  margin-right: 120px;
+  margin-left: 120px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* SITE HEADER */
+
+.header{
+  background-color: #e6e4e4;
+}
+
+.site-name-box{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #fff;
+}
+
+.site-name{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #7296EE;
+  padding: 9px 6px;
+  margin: 0;
+}

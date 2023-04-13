@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+*:focus{
+  outline: 5px dotted #7296ec;
+  outline-offset: 3px;
+}
 html{
   height: 100%;
   scroll-behavior: smooth;
@@ -18,6 +22,8 @@ body{
   font-size: 20px;
   line-height: 26px;
   color: #000000;
+  line-height: normal;
+
 }
 
 
@@ -60,6 +66,9 @@ body{
 .site-logo:active{
   opacity: 0.6;
 }
+
+/* currency-rates */
+
 .currency-rates {
   display: flex;
   align-items:center;
@@ -85,6 +94,25 @@ body{
   color:#555555;
 }
 
+/* GLOBAL_SEARCH_FORM */
+
+.global-search-form {
+
+  margin-right: 25px;
+
+}
+.global-search-form-input {
+  width: 275px;
+  padding-top: 15px;
+  padding-bottom: 13px;
+  padding-left: 41px;
+  font-weight: 400;
+  background: #FFFFFF;
+  border-radius: 60px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #8D8D8D;
+}
 /* LANG TOGGLE */
 .lang-toggle {
   display: flex;

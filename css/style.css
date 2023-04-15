@@ -173,7 +173,7 @@ botton-primary:active{
   padding-bottom: 12px;
   padding-top: 12px;
   border-bottom: 1px solid #d1d1d1;
-
+  margin-bottom: 40px;
 }
 .site-nav-list {
   display: flex;
@@ -212,4 +212,14 @@ botton-primary:active{
 
 .sitenav-link:active{
   opacity: 0.6;
+}
+
+  /* site-header banner */
+
+.site-header-banner-link{
+  display: flex;
+}
+
+.site-header-banner-img{
+  border-radius: 9px
 }

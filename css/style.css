@@ -18,10 +18,10 @@ body{
   padding: 0;
   font-family: "Rubik", "Arial",  sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 26px;
-  color: #000000;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #4A4B4C;
   line-height: normal;
 
 }
@@ -102,7 +102,6 @@ body{
   padding-top: 15px;
   padding-bottom: 13px;
   padding-left: 41px;
-  font-weight: 400;
   background: #FFFFFF;
   border-radius: 60px;
   font-size: 14px;

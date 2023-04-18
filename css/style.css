@@ -233,6 +233,12 @@ button:active{
   border-radius: 9px
 }
 
+
+.main-content{
+  flex-grow: 1;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
 /* GRID NEWS */
 .top-news {
   display: flex;
@@ -322,9 +328,7 @@ button:active{
 }
 
 /* GLOBAL-NEWS */
-.global-news{
-  width: 797px;
-}
+
 
 .global-news-heading{
   font-weight: 500;
@@ -365,9 +369,10 @@ button:active{
 
 }
 .article-card-horizontal-heading {
+  font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 18px;
+  line-height: 24px;
   font-style: normal;
   margin: 0;
   margin-bottom: 10px;
@@ -408,4 +413,97 @@ button:active{
   line-height: normal;
   color: #5e5f61;
 
+}
+
+/* LAYOUT */
+.layout-1{
+  display: flex;
+  align-items: flex-start;
+}
+
+.layout-2-3-main{
+  width: 797px;
+  margin-right: 10px;
+}
+
+.layout-1-3-sitebar{
+  width: 393px;
+}
+.layout-1-item:not(:last-child){
+  margin-bottom: 10px;
+}
+/* SITEBAR-NEWS */
+
+.siteber-news-card {
+  background: #f6f6f6;
+  border-radius: 15px;
+  padding: 20px;
+}
+.sitebar-news-card-heading {
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.sitebar-news-card-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.sitebar-news-card-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.sitebar-news-card-item:first-child {
+  padding-top: 0;
+}
+.sitebar-news-card-item:last-child {
+  padding-bottom: 0;
+}
+.sitebar-news-card-item:not(:last-child) {
+  border-bottom: 1px solid #D2D2D2;
+}
+
+.sitebar-news-card-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  font-style: normal;
+  margin: 0;
+  margin-bottom: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+}
+
+.sitebar-news-card-link:hover {
+  color:#7296ec;
+}
+
+.sitebar-news-card-link:active {
+  opacity: 0.6;
+}
+.sitebar-news-card-source-time {
+  font-size: 13px;
+  line-height: 15px;
+  display: block;
+  color: #5e5f61;
+}
+
+/* SITEBAR-AD */
+.satebar-ad{
+
+}
+.sitebar-ad-link {
+  display: flex;
+}
+.sitebar-ad-img {
+  object-fit: cover;
+  width: 393px;
+  height: 338px;
+  border-radius: 15px;
 }

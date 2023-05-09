@@ -495,9 +495,6 @@ button:active{
 }
 
 /* SITEBAR-AD */
-.satebar-ad{
-
-}
 .sitebar-ad-link {
   display: flex;
 }
@@ -506,4 +503,119 @@ button:active{
   width: 393px;
   height: 338px;
   border-radius: 15px;
+}
+
+
+/* SITE-FOOTER */
+footer *:focus{
+  outline: 3px dotted #fff;
+  outline-offset: 2px;
+}
+
+.site-footer {
+  background-color: #7297ef;
+  /* padding: 40px 100px; */
+  color: #fff;
+}
+
+.site-footer-container{
+  padding: 40px 100px;
+}
+.site-footer-logo-wrapper {
+  display: flex;
+  margin-bottom: 15px;
+}
+.site-footer-logo-link {
+  display: flex;
+}
+.site-footer-logo-link:hover {
+  opacity: 0.8;
+}
+.site-footer-logo-link:active {
+  opacity: 0.6;
+}
+.site-footer-logo-img {
+  width: 264px;
+  height: 28px;
+  object-fit: contain;
+}
+.site-footer-about-links {
+  display: flex;
+}
+.site-footer-about {
+  width: 230px;
+  font-size: 12px;
+  line-height: 19px;
+  margin-right: 203px;
+}
+
+.site-footer-links {
+  flex-grow: 1;
+  display: flex;
+
+}
+.dite-footer-links-list {
+  margin: 0;
+  padding: 0;
+  padding-right: 24px;
+  width: 50%;
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.site-footer-links-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.site-footer-links-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff
+}
+
+.site-footer-links-link:hover{
+  text-decoration: underline;
+}
+.site-footer-divider {
+  margin: 0;
+  height: 1px;
+  border: none;
+  background: #cecece;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.site-footer-socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+.site-footer-socials-text {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+}
+.site-footer-socials-list {
+  display: flex;
+  align-items: center ;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.site-footer-socials-item {
+
+}
+.site-footer-socials-item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.site-footer-socials-link{
+  display: flex;
+}
+.site-footer-socials-img{
+  flex-shrink: 0;
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+
 }

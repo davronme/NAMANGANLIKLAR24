@@ -108,6 +108,10 @@ body{
   line-height: 17px;
   color: #8D8D8D;
   border:none;
+  background-image: url(../imgs/icon-search.svg);
+  background-size: 20;
+  background-repeat: no-repeat;
+  background-position: 15px center;
 }
 
 /* LANG TOGGLE */
@@ -323,6 +327,8 @@ button:active{
   align-items: center;
   background-color: #e67878;
   padding: 24px 71px 24px 29px;
+  background-image: url(../imgs/notification-cta-bg.jpg);
+
 }
 .notification-cta-text {
   font-weight: 500;
@@ -661,9 +667,7 @@ footer *:focus{
 }
 
   /* CONTACT-SECTION */
-.contact-page-content{
 
-}
 .contact-page {
   margin-top: 10px;
 }
